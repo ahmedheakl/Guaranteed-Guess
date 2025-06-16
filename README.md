@@ -115,6 +115,59 @@ We evaluate GG using two complementary benchmarks: HumanEval-C with 164 programm
     <img src="assets/token-dist.png" width="95%" alt="GG Benchmarks" />
 </p>
 
+<p align="center">
+  <table border="1" cellspacing="0" cellpadding="6" style="margin: auto;">
+    <thead>
+      <tr>
+        <th>Benchmark</th>
+        <th>Architecture</th>
+        <th>Optimization</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="6"><b>HumanEval</b></td>
+        <td rowspan="2">ARMv5</td>
+        <td>O0</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-armv5-O0" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td>O2</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-armv5-O2" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td rowspan="2">ARMv8</td>
+        <td>O0</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-armv8-O0" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td>O2</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-armv8-O2" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td rowspan="2">RISCv64</td>
+        <td>O0</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-risc-O0" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td>O2</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-risc-O2" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td rowspan="2"><b>BringUpBench</b></td>
+        <td rowspan="2">ARMv8</td>
+        <td>O0</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-bringup-O0" target="_blank">Link</a></td>
+      </tr>
+      <tr>
+        <td>O2</td>
+        <td><a href="https://huggingface.co/datasets/ahmedheakl/gg-bench-bringup-O2" target="_blank">Link</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</p>
 
 ## Inference
 
