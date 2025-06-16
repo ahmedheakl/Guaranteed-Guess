@@ -179,6 +179,57 @@ We evaluate GG using two complementary benchmarks: HumanEval-C with 164 programm
 
 Checkout `inference.py` for a simple script to run inference on the GG models. The script takes an input assembly file and outputs the transpiled assembly code.
 
+Here are all the available GG models:
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Architecture</th>
+      <th>Optimization</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GG-ARMv5</td>
+      <td>ARMv5</td>
+      <td>O0</td>
+      <td><a href="https://huggingface.co/ahmedheakl/gg-armv5-O0" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>GG-ARMv5</td>
+      <td>ARMv5</td>
+      <td>O2</td>
+      <td><a href="https://huggingface.co/ahmedheakl/gg-armv5-O2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>GG-ARMv8</td>
+      <td>ARMv8</td>
+      <td>O0</td>
+      <td><a href="https://huggingface.co/ahmedheakl/gg-armv8-O0" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>GG-ARMv8</td>
+      <td>ARMv8</td>
+      <td>O2</td>
+      <td><a href="https://huggingface.co/ahmedheakl/gg-armv8-O2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>GG-RISCv64</td>
+      <td>RISCv64</td>
+      <td>O0</td>
+      <td><a href="https://huggingface.co/ahmedheakl/gg-risc-O0" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>GG-RISCv64</td>
+      <td>RISCv64</td>
+      <td>O2</td>
+      <td>TBR</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## ISA Similarity Analysis
 <p>
