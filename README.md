@@ -59,61 +59,9 @@ In this work, we introduce **<span style="color:rgb(138,43,226);">GG</span>** (G
     Most baseline models achieve 0% accuracy, highlighting the unique difficulty of low-level ISA translation.
 </p>
 
-<table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth results-table">
-    <thead>
-        <tr>
-            <th>Model</th>
-            <th>ARMv5 (-O0)</th>
-            <th>ARMv8 (-O0)</th>
-            <th>ARMv8 (-O2)</th>
-            <th>BringupBench (-O0)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>GPT-4o</td>
-            <td>8.48%</td>
-            <td>10.3%</td>
-            <td>4.24%</td>
-            <td>1.54%</td>
-        </tr>
-        <tr>
-            <td>Qwen2.5-Coder-1.5B</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-        </tr>
-        <tr>
-            <td>StarCoder2-3B</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-        </tr>
-        <tr>
-            <td>GG-DeepSeek-1.3B</td>
-            <td>79.25%</td>
-            <td>75.15%</td>
-            <td>10.3%</td>
-            <td>3.08%</td>
-        </tr>
-        <tr>
-            <td>GG-0.5B</td>
-            <td>90.85%</td>
-            <td>86.06%</td>
-            <td>25.45%</td>
-            <td>27.69%</td>
-        </tr>
-        <tr>
-            <td class="has-text-weight-bold">GG-1.5B</td>
-            <td class="has-text-weight-bold">93.71%</td>
-            <td class="has-text-weight-bold">99.39%</td>
-            <td class="has-text-weight-bold">45.12%</td>
-            <td class="has-text-weight-bold">49.23%</td>
-        </tr>
-    </tbody>
-</table>
+<p align="center">
+    <img src="assets/main-results.png" width="95%" alt="GG Results" />
+</p>
 
 <h3 class="title is-4">Real-World Performance vs Rosetta 2</h3>
 <p>
