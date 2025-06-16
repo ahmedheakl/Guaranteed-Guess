@@ -1,4 +1,10 @@
-# Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees
+<div align="center">
+  <img src="assets/gg-logo.png" width="11%" align="left"/>
+</div>
+
+<div style="margin-top:50px;">
+  <h1 style="font-size: 30px; margin: 0;"> Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees</h1>
+</div>
 
 <div align="left" style="margin:24px 0;">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
