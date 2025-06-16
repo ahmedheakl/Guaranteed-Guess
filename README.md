@@ -2,7 +2,7 @@
   <img src="assets/gg-logo.png" width="11%" align="left"/>
 </div>
 
-<div style="margin-top:50px;">
+<div style="margin-top:50px; margin-left: 12%;">
   <h1 style="font-size: 30px; margin: 0;"> Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees</h1>
 </div>
 
