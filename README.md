@@ -115,3 +115,16 @@ Checkout `inference.py` for a simple script to run inference on the GG models. T
 
 - [ ] Release training and evaluation scripts.
 - [ ] Release dataset compilation scripts.
+
+
+## Citation
+If you use this code or the dataset in your research, please cite our paper:
+
+```bibtex
+@article{heakl2025guaranteed,
+  title={Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees},
+  author={Heakl, Ahmed and Hashmi, Sarim and Abi, Chaimaa and Lee, Celine and Mahmoud, Abdulrahman},
+  journal={arXiv preprint arXiv:2401.00000},
+  year={2025}
+}
+```
