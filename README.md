@@ -106,9 +106,34 @@ In this work, we introduce **<span style="color:rgb(138,43,226);">GG</span>** (G
 </table>
 
 
+## Evaluation Benchmarks
+<p>
+We evaluate GG using two complementary benchmarks: HumanEval-C with 164 programming problems and BringUpBench with 65 bare-metal programs (85-5751 lines of code), providing comprehensive coverage from isolated functions to full project structures with internal libraries.
+</p>
+
+<p align="center">
+    <img src="assets/token-dist.png" width="95%" alt="GG Benchmarks" />
+</p>
+
+
 ## Inference
 
 Checkout `inference.py` for a simple script to run inference on the GG models. The script takes an input assembly file and outputs the transpiled assembly code.
+
+
+## ISA Similarity Analysis
+<p>
+    We observe a direct correlation between ISA similarity and transpilation accuracy. ARMv8 exhibits the highest similarity to x86 (40.19%), followed by ARMv5 (25.09%) and RISC-V64 (21.41%), directly correlating with model accuracy performance across these architectures.
+</p>
+
+<p>
+    Additionally, we analyze how compiler optimization levels affect opcode usage patterns in ARMv8. At -O2 optimization, mov instructions become dominant (+14.8%), indicating more register reuse and reduced memory traffic, which makes the learning task more challenging for the model.
+</p>
+
+<p align="center">
+    <img src="assets/analysis.png" width="100%" alt="ISA Similarity Analysis" />
+</p>
+
 
 
 ## Todos
