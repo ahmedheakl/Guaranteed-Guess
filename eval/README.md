@@ -1,14 +1,25 @@
 ## BringupBench
 
 ### Inference 
-Coming soon stay tuned!
+You need to make sure `transformers`, `torch`, `python-Levenshtein`, and `datasets` are installed in your environment. Run the following script to run the inference on bringup-bench and save the results in a `results.json` file. Change `ahmedheakl/gg-armv8-O0` to the model you want to use for inference. 
+
+```bash
+python eval_bringupbench.py \
+    --model_name ahmedheakl/gg-armv8-O0 \
+    --output_file results.json \
+    --dataset_path ahmedheakl/gg-bench-bringup-O0 \
+    --max_length 32768 \
+    --input_column x86 \
+    --output_column arm \
+    --files_column file \
+```
 
 ### Evaluation
 The evaluation is assumed to be run on MAC device. You have to save the predicted assembly files into their folders. Assuming you got an output `results.json` from the inference step, you can run the evaluation script as follows:
 
 ```bash 
 cd bringup-bench
-python save_preds --path results.json
+python save_preds --path ../results.json
 ```
 
 Now to get an accuracy, run the following
@@ -35,3 +46,6 @@ Replace `username/repo_name` with your actual Hugging Face repository name. The 
 ```bash
 export HF_TOKEN=<your_huggingface_token>
 ```
+
+## HumanEval
+Coming soon, stay tuned!
