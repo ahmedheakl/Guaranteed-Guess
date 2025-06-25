@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://ahmedheakl.github.io/Guaranteed-Guess/"><img src="https://img.shields.io/badge/Project-Website-87CEEB?style=flat-square" alt="Website"></a>
-  <a href="https://arxiv.org/abs/xx"><img src="https://img.shields.io/badge/arXiv-Paper-brightgreen?style=flat-square" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2506.14606?"><img src="https://img.shields.io/badge/arXiv-Paper-brightgreen?style=flat-square" alt="arXiv"></a>
   <a href="https://huggingface.co/collections/ahmedheakl/guaranteed-guessing-67f7c4f7bf3b9bcf174ecab7"><img src="https://img.shields.io/badge/🤗_Dataset-Access-green" alt="dataset"></a>
   <a href="https://huggingface.co/collections/ahmedheakl/guaranteed-guessing-67f7c4f7bf3b9bcf174ecab7"><img src="https://img.shields.io/badge/HuggingFace-Model-F9D371" alt="model"></a>
 </p>
@@ -259,7 +259,7 @@ If you use this code or the dataset in your research, please cite our paper:
 @article{heakl2025guaranteed,
   title={Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees},
   author={Heakl, Ahmed and Hashmi, Sarim and Abi, Chaimaa and Lee, Celine and Mahmoud, Abdulrahman},
-  journal={arXiv preprint arXiv:2401.00000},
+  journal={arXiv preprint arXiv:2506.14606},
   year={2025}
 }
 ```
