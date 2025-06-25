@@ -35,7 +35,8 @@
 
 ## 🆕 Latest Updates
 
-- 📢 **June 2025**: Paper and inference code released!
+- 📢 **June 2025**: Evaluation code for Bringup-Bench is released. Checkout `eval` folder!
+- 📢 **June 2025**: Paper and inference code is released!
 
 
 ## Overview
