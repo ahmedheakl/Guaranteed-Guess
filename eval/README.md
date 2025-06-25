@@ -15,14 +15,14 @@ Now to get an accuracy, run the following
 ```bash
 make run-tests TARGET=host
 ```
-The script basically does the following 
-(1) compiles each `.s` from your inference into a `.o` file
-(2) Builds the bringup-bench as a static library
-(3) Links the `.o` files with the bringup-bench library
-(4) Runs the file and saves outputs in `{file}/FOO`
-(5) Compares the outputs with the expected outputs in `{file}/{file}.out` with `FOO` using `diff`
-(6) If the outputs match, it counts as a success
-(7) Finally, it prints the accuracy of your predictions
+The script basically does the following <br>
+(1) compiles each `.s` from your inference into a `.o` file<br>
+(2) Builds the bringup-bench as a static library<br>
+(3) Links the `.o` files with the bringup-bench library<br>
+(4) Runs the file and saves outputs in `{file}/FOO`<br>
+(5) Compares the outputs with the expected outputs in `{file}/{file}.out` with `FOO` using `diff`<br>
+(6) If the outputs match, it counts as a success<br>
+(7) Finally, it prints the accuracy of your predictions<br>
 
 ### Benchmark Curation
 To curate the benchmark with a specific optimization level and push to your huggingface repo, you can run the following command:
