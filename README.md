@@ -34,7 +34,7 @@
 ---
 
 ## 🆕 Latest Updates
-
+- 📢 **August 2025**: We're thrilled to share that GG has been accepted to *EMNLP 2025*! 🎊
 - 📢 **June 2025**: Evaluation code for Bringup-Bench is released. Checkout `eval` folder!
 - 📢 **June 2025**: Paper and inference code is released!
 
