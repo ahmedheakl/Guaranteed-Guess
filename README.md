@@ -1,6 +1,7 @@
 <div align="center">
   <img src="assets/gg-logo.png" width="11%" align="left"/>
-</div>
+
+
 
 <div style="margin-top:50px; margin-left: 12%;">
   <h1 style="font-size: 30px; margin: 0;"> Guaranteed Guess: A Language Modeling Approach for CISC-to-RISC Transpilation with Testing Guarantees [EMNLP 2025 🔥]</h1>
@@ -11,11 +12,15 @@
        width="100%" height="4"/>
 </div>
 
+
+
 <p align="center">
   <a href="https://ahmedheakl.github.io/Guaranteed-Guess/"><img src="https://img.shields.io/badge/Project-Website-87CEEB?style=flat-square" alt="Website"></a>
   <a href="https://arxiv.org/abs/2506.14606?"><img src="https://img.shields.io/badge/arXiv-Paper-brightgreen?style=flat-square" alt="arXiv"></a>
   <a href="https://huggingface.co/collections/ahmedheakl/guaranteed-guessing-67f7c4f7bf3b9bcf174ecab7"><img src="https://img.shields.io/badge/🤗_Dataset-Access-green" alt="dataset"></a>
   <a href="https://huggingface.co/collections/ahmedheakl/guaranteed-guessing-67f7c4f7bf3b9bcf174ecab7"><img src="https://img.shields.io/badge/HuggingFace-Model-F9D371" alt="model"></a>
+  <a href="https://github.com/user-attachments/files/26859902/gg-presentation.pdf"><img src="https://img.shields.io/badge/Presentation-PDF-orange?style=flat-square" alt="presentation"></a>
+
 </p>
 
 <p align="center">
